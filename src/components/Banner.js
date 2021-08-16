@@ -10,18 +10,18 @@ function Banner() {
             showStatus={false}
             showIndicators={false}
             showThumbs={false}
-            interval={5000}
+            interval={3000}
         >
             <div>
-                <img loading="lazy" src="https://links.papareact.com/gi1" alt="" />
+                <img loading="lazy" src="https://i.imgur.com/VkLyjYq.png" alt="" />
             </div>
 
             <div>
-                <img loading="lazy" src="https://links.papareact.com/6ff" alt="" />
+                <img loading="lazy" src="https://i.imgur.com/DaHjHbj.png" alt="" />
             </div>
 
             <div>
-                <img loading="lazy" src="https://links.papareact.com/7ma" alt="" />
+                <img loading="lazy" src="https://i.imgur.com/raaTXzx.png" alt="" />
             </div>
 
         </Carousel>

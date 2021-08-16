@@ -13,7 +13,7 @@ export default async (req, res) => {
                 name: item.title,
                 images: [item.image],
             },
-            unit_amount: item.price * 100 *73,        
+            unit_amount: item.price * 100,        
         },
         description: item.description,
         quantity: 1,

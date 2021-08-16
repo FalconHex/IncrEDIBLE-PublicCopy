@@ -26,13 +26,12 @@ function Orders({ orders }) {
 
                 <div className="mt-5 space-y-4">
                     {orders?.map(
-                        ({id, amount, amountShipping, items, timestamp, images}
+                        ({id, amount, items, timestamp, images}
                         )=> (
                                 <Order 
                                     key={id}
                                     id={id}
                                     amount={amount}
-                                    amountShipping={amountShipping}
                                     items={items}
                                     timestamp={timestamp}
                                     images={images}   
@@ -77,7 +76,6 @@ export async function getServerSideProps(context) {
             
             id: order.id,
             amount: order.data().amount,
-            amountShipping: order.data().amount_shipping,
             images: order.data().images,
             timestamp: moment(order.data().timestamp.toDate()).unix(),
             items: (

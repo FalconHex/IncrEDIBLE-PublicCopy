@@ -43,7 +43,7 @@ function Checkout() {
                 {/* Left Hand  */}
                 <div className="flex-grow m-5 shadow-sm">
                     <Image 
-                        src="https://links.papareact.com/ikj" 
+                        src="https://i.imgur.com/GZG2TNR.png" 
                         width={1020}
                         height={250}
                         objectFit = "contain"
@@ -63,12 +63,10 @@ function Checkout() {
                                     key={i}
                                     id={item.id}
                                     title={item.title}
-                                    rating={item.rating}
                                     price={item.price}
                                     description={item.description}
                                     category={item.category}
                                     image={item.image}
-                                    hasPrime={item.hasPrime}
                                 />
 
                             ))}
