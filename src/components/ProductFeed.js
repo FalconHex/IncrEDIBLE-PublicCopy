@@ -11,8 +11,10 @@ function ProductFeed({ products }) {
                     key="49538094"
                     id="49538094"
                     title="Milk" 
-                    price={50} 
-                    description="Expiry: in 3 days"
+                    mrp = {45}
+                    price={35} 
+                    description="1 Liter Carton"
+                    expiry="Expiry: in 3 days"
                     category="Dairy"
                     image="https://i.imgur.com/veoq3w7.jpg" 
                 />
@@ -22,8 +24,10 @@ function ProductFeed({ products }) {
                     key="24567834"
                     id="24567834"
                     title="Amul Ghee" 
-                    price={500} 
-                    description="Expiry: in 2 months"
+                    mrp={255}
+                    price={230} 
+                    description="500 Ml Carton"
+                    expiry="Expiry: in 2 months"
                     category="Dairy"
                     image="https://i.imgur.com/wsOwq5a.jpg" 
                 />
@@ -33,8 +37,10 @@ function ProductFeed({ products }) {
                     key="89056731"
                     id="89056731"
                     title="Bread" 
-                    price={30} 
-                    description="Expiry: in 1 week"
+                    mrp={32}
+                    expiry="Expiry: in 5 Days"
+                    price={28} 
+                    description="450g Pack"
                     category="Grains"
                     image="https://i.imgur.com/DH3rVjx.png" 
                 />
@@ -43,9 +49,11 @@ function ProductFeed({ products }) {
                 <Product 
                     key="89567234"
                     id="89567234"
-                    title="Dairy Milk Silk" 
-                    price={75} 
-                    description="Expiry: in 1 month"
+                    title="Dairy Milk Silk"
+                    mrp={525}
+                    expiry="Expiry: in 1 month" 
+                    price={475} 
+                    description="Roasted Almonds Pack of 3"
                     category="Sweets"
                     image="https://i.imgur.com/T0hFk9b.png" 
                 />
@@ -64,9 +72,11 @@ function ProductFeed({ products }) {
                 <Product 
                     key="34512790"
                     id="34512790"
-                    title="Oreo" 
+                    title="Oreo"
+                    mrp={30}
+                    expiry="Expiry: in 1 month"  
                     price={20} 
-                    description="Expiry: in 1 month"
+                    description="Chocolate flavour, 120 g"
                     category="Biscuits"
                     image="https://i.imgur.com/5GQFApw.jpg" 
                 />
@@ -80,8 +90,10 @@ function ProductFeed({ products }) {
                     key="67894532"
                     id="67894532"
                     title="Amul Butter" 
-                    price={50} 
-                    description="Expiry: 3 weeks"
+                    mrp={235}
+                    expiry="Expiry: 3 weeks" 
+                    price={200} 
+                    description="Pasteurised, 500g"
                     category="Dairy"
                     image="https://i.imgur.com/JtyZt9M.jpg" 
                 />
@@ -91,8 +103,10 @@ function ProductFeed({ products }) {
                     key="87107712"
                     id="87107712"
                     title="Maggi" 
+                    mrp={25}
+                    expiry="Expiry: in 2 months" 
                     price={20} 
-                    description="Expiry: in 2 months"
+                    description="140g Pack"
                     category="Snacks"
                     image="https://i.imgur.com/QlyLUDx.jpg" 
                 />
@@ -102,8 +116,10 @@ function ProductFeed({ products }) {
                     key="87107711"
                     id="87107711"
                     title="Aloo Tikki" 
-                    price={150} 
-                    description="Expiry: in 2 months"
+                    mrp={180}
+                    expiry="Expiry: in 1 month" 
+                    price={120} 
+                    description="760g Pack"
                     category="Snacks"
                     image="https://i.imgur.com/tWFpjZi.jpg" 
                 />
@@ -113,8 +129,10 @@ function ProductFeed({ products }) {
                     key="87107710"
                     id="87107710"
                     title="Sugar" 
-                    price={300} 
-                    description="Expiry: in 1 month"
+                    mrp={55}
+                    expiry="Expiry: in 1 month" 
+                    price={40} 
+                    description="1kg Pack"
                     category="Grocery"
                     image="https://i.imgur.com/dMs8SOQ.jpg" 
                 />
@@ -124,8 +142,10 @@ function ProductFeed({ products }) {
                     key="87107709"
                     id="87107709"
                     title="Aashirvaad Atta" 
-                    price={700} 
-                    description="Expiry: in 3 months"
+                    mrp={193}
+                    expiry="Expiry: in 3 months" 
+                    price={150} 
+                    description="5Kg Pack"
                     category="Grains"
                     image="https://i.imgur.com/VfoGFi1.jpg" 
                 />
@@ -136,8 +156,10 @@ function ProductFeed({ products }) {
                     key="34512784"
                     id="34512784"
                     title="Kellogg's Chocos" 
-                    price={200} 
-                    description="Expiry: in 2 months"
+                    mrp={125}
+                    expiry="Expiry: in 2 months" 
+                    price={100} 
+                    description="250g Pack"
                     category="Cereal"
                     image="https://i.imgur.com/nrftukJ.jpg" 
                 />
@@ -147,8 +169,10 @@ function ProductFeed({ products }) {
                     key="87107705"
                     id="87107705"
                     title="Channa" 
+                    mrp={150}
+                    expiry="Expiry: in 2 months" 
                     price={120} 
-                    description="Expiry: in 2 months"
+                    description="1Kg Pack"
                     category="Pulses"
                     image="https://i.imgur.com/Z2uhcdq.jpg" 
                 />
@@ -158,8 +182,10 @@ function ProductFeed({ products }) {
                     key="87107706"
                     id="87107706"
                     title="Lays" 
-                    price={20} 
-                    description="Expiry: in 1 month"
+                    mrp={25}
+                    expiry="Expiry: in 1 month"
+                    price={18} 
+                    description="95g Pack"
                     category="Snacks"
                     image="https://i.imgur.com/1EDMkss.jpg" 
                 />
@@ -168,9 +194,11 @@ function ProductFeed({ products }) {
                 <Product 
                     key="87107707"
                     id="87107707"
-                    title="Coca-Cola" 
-                    price={40} 
-                    description="Expiry: in 2 weeks"
+                    title="Coca-Cola"
+                    mrp={40}
+                    expiry="Expiry: in 2 weeks" 
+                    price={30} 
+                    description="750ml Bottle"
                     category="Drinks"
                     image="https://i.imgur.com/d6urxM4.jpg" 
                 />
@@ -180,8 +208,10 @@ function ProductFeed({ products }) {
                     key="87107708"
                     id="87107708"
                     title="Red-Label" 
-                    price={170} 
-                    description="Expiry: in 3 weeks"
+                    mrp={170}
+                    expiry="Expiry: in 3 weeks" 
+                    price={140} 
+                    description="250g Pack"
                     category="Drinks"
                     image="https://i.imgur.com/HarsyFs.jpg" 
                 />

@@ -5,10 +5,9 @@ import Currency from "react-currency-formatter";
 import { useDispatch } from 'react-redux';
 import { addToBasket } from "../slices/basketSlice";
 
-const MAX_RATING = 5;
-const MIN_RATING = 1;
 
-function Product({id, title, price, description, category, image}) {
+
+function Product({id, title, mrp, price, description, expiry, category, image}) {
     
     const dispatch = useDispatch();
     
@@ -31,15 +30,22 @@ function Product({id, title, price, description, category, image}) {
             <Image src={image} height={200} width={200} objectFit="contain" />
 
             {/* disp: title */}
-            <h4 className="my-3">{title}</h4>
+            <h4 className="my-3 font-bold">{title}</h4>
             
 
             {/* disp: description */}
-            <p className="text-xs my-2 line-clamp-2">{description}</p>
+            <p className="text-xm my-2 line-clamp-2">{description}</p>
+
+            <p className="text-xs font-bold my-2 line-clamp-2 text-red-500 ">{expiry}</p>
 
             {/* disp: price */}
-            <div className="mb-5">
+            <div className="mb-5 flex">
+                <div className="mb-5 line-through mr-3">
+                    <Currency  quantity={mrp} currency="INR" />
+                </div>
                 <Currency quantity={price} currency="INR" />
+                
+                
             </div>
 
             
