@@ -1,28 +1,24 @@
-# Installation Steps
+# This is a Fullstack project: IncrEDIBLE  
 
+This is a concept webstore wherein food products near to their expiry dates would be sold at a discounted price.  
 
+## Features:
+1.Sign Up - Google Authentication  
+2.Viewing Products - FakeStore API  
+3.Database Managment - Firebase  
+4.Payment Service - Stripe API  
+5.Hosting Service - Vercel  
 
-## Using npm
+## Built using:  
+1.Next JS  
+2.Tailwind CSS  
+3.Stripe  
+4.Redux
+  
+  
+-You can login using your google account,  
+-View the products & add them to cart  
+-Checkout using Card  
+-Then view your Orders  
 
-Run commands
-
-1) ```npm install```
-
-
-2) ```npm run dev```
-
-
-## Or using yarn
-
-Run commands 
-
-1) ```npm install --global yarn```
-
-2) ```yarn install```
-
-3) ```yarn run dev```
-
-
-### If you see the window below then you are set to build AMAZON 2.0!
-
-![Template Screenshot](TemplateScreenshot.jpg?raw=true "Template Screenshot")
+### Check out my hosted site: https://incredible.vercel.app
